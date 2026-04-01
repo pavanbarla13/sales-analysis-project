@@ -21,11 +21,12 @@ Analyzed retail sales data using Python (Pandas) and SQL to identify sales trend
 - Customer purchasing behavior
 - Profit analysis
 
-##Key Insights
-- Identified high-revenue product categories
-- Found patterns in customer purchasing frequency
-- Analyzed profit margins across different segments
-
+## Key Insights
+- Identified top revenue-generating categories
+- Found peak sales periods indicating seasonal trends
+- Analyzed customer behavior to identify repeat customers
+- Evaluated profit distribution across different segments
+- 
 ##Project Structure
 - data/ → raw dataset
 - python/ → data cleaning and preprocessing
