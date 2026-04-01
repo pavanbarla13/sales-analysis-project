@@ -1,9 +1,7 @@
 #Sales Analysis Project
 
-##Overview
-This project analyzes retail sales data to identify trends, customer behavior, and business insights using Python (Pandas) and SQL.
-
-##Dataset
+## Overview
+Analyzed retail sales data using Python (Pandas) and SQL to identify sales trends, customer purchasing behavior, and profit patterns. Improved data quality by cleaning and transforming raw data for accurate analysis.
 - Source: Retail sales dataset
 - Contains order details, shipping dates, sales, profit, and customer information
 
