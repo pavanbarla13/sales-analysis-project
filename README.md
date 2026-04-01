@@ -1,36 +1,44 @@
-#Sales Analysis Project
+# Sales Analysis Project
 
 ## Overview
-Analyzed retail sales data using Python (Pandas) and SQL to identify sales trends, customer purchasing behavior, and profit patterns. Improved data quality by cleaning and transforming raw data for accurate analysis.
-- Source: Retail sales dataset
-- Contains order details, shipping dates, sales, profit, and customer information
+Performed end-to-end sales data analysis using Python to uncover trends, profitability issues, and regional performance insights.
 
-##Tools & Technologies
-- Python (Pandas, NumPy)
-- SQL
-- Excel (for initial cleaning)
+---
 
-##Data Cleaning
-- Converted date columns (order_date, ship_date) to proper datetime format
-- Handled missing values
-- Removed inconsistencies in data
+## Key Business Insights
 
-##Analysis Performed
-- Sales trend over time
-- Top-performing products and categories
-- Customer purchasing behavior
-- Profit analysis
+### 1. Seasonal Trends
+- Sales show consistent decline in January across years.
+- Strong growth observed in March, indicating seasonal demand patterns.
 
-## Key Insights
-- Identified top revenue-generating categories
-- Found peak sales periods indicating seasonal trends
-- Analyzed customer behavior to identify repeat customers
-- Evaluated profit distribution across different segments
+### 2. Category Performance
+- Technology is the top-performing category in both sales and profit.
+- Furniture generates high sales but very low profit → indicates poor profitability.
 
-##Project Structure
-- data/ → raw dataset
-- python/ → data cleaning and preprocessing
-- sql/ → analysis queries
+### 3. Profitability Analysis
+- Profit is not aligned with sales across categories.
+- Furniture category likely suffers from high costs or heavy discounting.
 
-##Conclusion
-This project demonstrates end-to-end data analysis workflow from raw data cleaning to extracting actionable insights.
+### 4. Regional Performance
+- West region leads in total sales.
+- South region underperforms, indicating potential growth opportunity.
+
+---
+
+## Key Takeaways
+- Business depends heavily on Technology for revenue and profit.
+- Furniture category needs cost optimization or pricing strategy changes.
+- Sales show strong seasonality → useful for forecasting and planning.
+
+---
+
+## Tools & Technologies
+- Python (Pandas, Matplotlib)
+- Jupyter Notebook
+
+---
+
+## Project Structure
+- data/ → dataset  
+- python/ → analysis notebook  
+- outputs/ → visualizations to extracting actionable insights.
