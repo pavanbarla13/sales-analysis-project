@@ -1,2 +1,37 @@
-# sales-analysis-project
-End-to-end sales analysis using python (Pandas) and SQL
+#Sales Analysis Project
+
+##Overview
+This project analyzes retail sales data to identify trends, customer behavior, and business insights using Python (Pandas) and SQL.
+
+##Dataset
+- Source: Retail sales dataset
+- Contains order details, shipping dates, sales, profit, and customer information
+
+##Tools & Technologies
+- Python (Pandas, NumPy)
+- SQL
+- Excel (for initial cleaning)
+
+##Data Cleaning
+- Converted date columns (order_date, ship_date) to proper datetime format
+- Handled missing values
+- Removed inconsistencies in data
+
+##Analysis Performed
+- Sales trend over time
+- Top-performing products and categories
+- Customer purchasing behavior
+- Profit analysis
+
+##Key Insights
+- Identified high-revenue product categories
+- Found patterns in customer purchasing frequency
+- Analyzed profit margins across different segments
+
+##Project Structure
+- data/ → raw dataset
+- python/ → data cleaning and preprocessing
+- sql/ → analysis queries
+
+##Conclusion
+This project demonstrates end-to-end data analysis workflow from raw data cleaning to extracting actionable insights.
